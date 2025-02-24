@@ -1,0 +1,2 @@
+SELECT AVG(JULIANDAY('2024-01-01') - JULIANDAY(BirthDate)) / 365
+from Employees;
