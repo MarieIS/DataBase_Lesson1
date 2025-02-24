@@ -1,0 +1,3 @@
+SELECT count(OrderDate)
+from Orders
+where OrderDate like '2024-01%';
