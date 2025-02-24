@@ -1,0 +1,3 @@
+SELECT AVG(Price), COUNT(CategoryID)
+FROM Products
+WHERE CategoryID = 5;
