@@ -1,0 +1,3 @@
+SELECT count(OrderDate)
+from Orders
+where STRFTIME('%Y', OrderDate) = '2024';
